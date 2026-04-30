@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stok</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Data Bahan Ajar</h2>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Kode</th>
+        <th>Nama</th>
+        <th>Stok</th>
+      </tr>
+    </thead>
+    <tbody id="tabel"></tbody>
+  </table>
+
+  <h3>Tambah Data</h3>
+  <input type="text" id="nama" placeholder="Nama">
+  <input type="number" id="stok" placeholder="Stok">
+  <button onclick="tambahData()">Tambah</button>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
