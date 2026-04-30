@@ -6,11 +6,38 @@
 </head>
 <body>
 
-<div class="container">
-  <h2 id="greeting"></h2>
+<div class="layout">
 
-  <a href="stok.html">Informasi Bahan Ajar</a><br>
-  <a href="tracking.html">Tracking Pengiriman</a>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>SITTA</h2>
+    <a href="dashboard.html">🏠 Dashboard</a>
+    <a href="stock.html">📦 Bahan Ajar</a>
+    <a href="tracking.html">🚚 Tracking</a>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+    <h2 id="greeting"></h2>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Total Bahan Ajar</h3>
+        <p>120</p>
+      </div>
+
+      <div class="card">
+        <h3>Dalam Pengiriman</h3>
+        <p>35</p>
+      </div>
+
+      <div class="card">
+        <h3>Selesai</h3>
+        <p>85</p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <script src="js/script.js"></script>
