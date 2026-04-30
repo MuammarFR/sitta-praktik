@@ -1,4 +1,0 @@
-const dataBahanAjar = [
-  { kode: "B001", nama: "Pengantar Ilmu Komunikasi", stok: 50 },
-  { kode: "B002", nama: "Manajemen", stok: 30 }
-];
