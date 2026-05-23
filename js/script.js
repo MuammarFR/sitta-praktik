@@ -43,7 +43,7 @@ function cariDO() {
 
   if (doNumber === "DO123") {
     document.getElementById("hasil").innerHTML =
-      "Nama: Budi <br> Status: Dalam Pengiriman";
+      "Nama: Budi <br>Status: Dalam Pengiriman";
   } else {
     document.getElementById("hasil").innerHTML = "Data tidak ditemukan";
   }
